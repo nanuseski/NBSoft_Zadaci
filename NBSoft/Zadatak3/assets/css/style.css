@@ -1,0 +1,39 @@
+.content {
+    width:500px;
+    display:block;
+    margin: 100px auto;
+}
+h3 {
+    background: yellow;
+    color: #3498db;
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+}
+
+.slider{
+    position: relative;
+}
+
+.next_arrow, .prev_arrow{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    bottom: -55px;
+    background: #3498db;
+    display: inline-block;
+    cursor: pointer;
+}
+.prev_arrow{
+    left: 40%;
+}
+
+.next_arrow{
+    right: 40%;
+}

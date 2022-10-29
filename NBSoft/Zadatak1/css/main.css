@@ -1,0 +1,22 @@
+body {
+    background: RGB(051, 051, 051);
+    font-family: Calibri, sans-serif;
+    color: RGB(034,042,053);
+}
+
+#cv {
+    background: white;
+}
+
+.underline{
+    color: RGB(046,116,181);
+}
+
+#name {
+    margin-left: 40px;
+    font-size:6vw;
+}
+
+.dateColor, a{
+    color: RGB(134,170,215);
+}
